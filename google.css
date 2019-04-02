@@ -1,0 +1,117 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#en_tete
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+.tete
+{
+    padding-right: 5px;
+    color: black;
+    text-decoration-line: none;
+}
+
+#centre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#barre_de_recherche
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:24px;
+    
+}
+
+.button
+{
+    height: 36px;
+    line-height: 27px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+footer
+{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: 0;
+    font-size: small;
+    height: 35px;
+    position:absolute;
+    width: 100%;
+    background-color:#bdc3c7;
+    
+}
+
+#page
+{
+    background-color: white;
+    height: 266px;
+}
+
+#France
+{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 58px;
+    padding-left: 15px;
+    background-color:#bdc3c7;
+    color: #535c68;
+}
+
+#entreprise
+{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    background-color:#bdc3c7;
+    
+}
+
+.enterprise
+{
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    color: #535c68;
+}
+
+#info_conso
+{
+    display: flex;
+    align-items: flex-end;
+    background-color:#bdc3c7;
+    
+}
+
+.info
+{
+    display: block;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    color: #535c68;
+}
+
+    
